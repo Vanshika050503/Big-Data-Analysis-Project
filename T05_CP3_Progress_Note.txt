@@ -1,0 +1,5 @@
+1. We prepared a cleaned working copy of both Online Retail II sheets while preserving the raw source rows.
+2. EDA checks the cleaned data for size, missing values, duplicates, dates, value ranges, and country counts.
+3. The notebook then saves the unchanged source rows to the Bronze Delta table.
+4. It writes cleaned sales, cancellations, exceptions, and a quality log to Silver tables in Databricks.
+5. Next: run the notebook on a small sample, review the outputs, then run full data once and plan checkpoint 4.
